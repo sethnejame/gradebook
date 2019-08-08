@@ -2,7 +2,7 @@
 
 The grade book app is a C#/.NET Core application that holds student grades and computes grade point averages, high grades, low grades, and stores multiple grades for various students.
 
-This app was coded by Seth NeJame via the following Plural Sight tutorial:
+This app was coded by Seth NeJame via the following Plural Sight tutorial by Scott Allen:
 https://app.pluralsight.com/library/courses/csharp-fundamentals-dev/table-of-contents
 
 ## GradeBook Deployment
