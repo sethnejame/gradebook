@@ -8,19 +8,18 @@ namespace GradeBook
     static void Main(string[] args)
     {
       var result = 0.0;
-      var counter = 0;
       var numbers = new[] { 12.7, 10.3, 6.11, 4.1 };
       var grades = new List<double>() { 12.7, 10.3, 6.11, 4.1 };
       grades.Add(56.1);
 
-
-      foreach(double number in grades) {
+      foreach (double number in grades)
+      {
         result += number;
       }
 
-      var avg = result/grades.Count;
+      result /= grades.Count;
 
-      Console.WriteLine(avg);
+      Console.WriteLine($"The average grade is {result:N1}.");
 
       if (args.Length > 0)
       {
