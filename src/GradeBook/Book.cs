@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace GradeBook
 {
-  class Book
+  public class Book
   {
     public Book(string name)
     {
@@ -15,7 +15,7 @@ namespace GradeBook
       grades.Add(grade);
     }
 
-    public void ShowStatistics()
+    public void GetStatistics()
     {
       var result = 0.0;
       var highGrade = double.MinValue;

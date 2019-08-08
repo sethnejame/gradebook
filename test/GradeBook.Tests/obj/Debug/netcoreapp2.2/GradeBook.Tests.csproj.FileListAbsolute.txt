@@ -1,0 +1,14 @@
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp2.2/GradeBook.Tests.deps.json
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp2.2/GradeBook.Tests.runtimeconfig.json
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp2.2/GradeBook.Tests.runtimeconfig.dev.json
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp2.2/GradeBook.Tests.dll
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp2.2/GradeBook.Tests.pdb
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp2.2/GradeBook.Tests.csprojAssemblyReference.cache
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp2.2/GradeBook.Tests.csproj.CoreCompileInputs.cache
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp2.2/GradeBook.Tests.AssemblyInfoInputs.cache
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp2.2/GradeBook.Tests.AssemblyInfo.cs
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp2.2/GradeBook.Tests.dll
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp2.2/GradeBook.Tests.pdb
