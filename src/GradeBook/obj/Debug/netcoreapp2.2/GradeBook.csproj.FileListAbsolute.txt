@@ -1,0 +1,11 @@
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/src/GradeBook/bin/Debug/netcoreapp2.2/GradeBook.deps.json
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/src/GradeBook/bin/Debug/netcoreapp2.2/GradeBook.runtimeconfig.json
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/src/GradeBook/bin/Debug/netcoreapp2.2/GradeBook.runtimeconfig.dev.json
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/src/GradeBook/bin/Debug/netcoreapp2.2/GradeBook.dll
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/src/GradeBook/bin/Debug/netcoreapp2.2/GradeBook.pdb
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/src/GradeBook/obj/Debug/netcoreapp2.2/GradeBook.csprojAssemblyReference.cache
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/src/GradeBook/obj/Debug/netcoreapp2.2/GradeBook.csproj.CoreCompileInputs.cache
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/src/GradeBook/obj/Debug/netcoreapp2.2/GradeBook.AssemblyInfoInputs.cache
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/src/GradeBook/obj/Debug/netcoreapp2.2/GradeBook.AssemblyInfo.cs
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/src/GradeBook/obj/Debug/netcoreapp2.2/GradeBook.dll
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/src/GradeBook/obj/Debug/netcoreapp2.2/GradeBook.pdb
