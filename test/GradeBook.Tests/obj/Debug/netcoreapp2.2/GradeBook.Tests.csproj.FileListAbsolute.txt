@@ -12,3 +12,6 @@
 /home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp2.2/GradeBook.Tests.AssemblyInfo.cs
 /home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp2.2/GradeBook.Tests.dll
 /home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp2.2/GradeBook.Tests.pdb
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp2.2/GradeBook.dll
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp2.2/GradeBook.pdb
+/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp2.2/GradeBook.Tests.csproj.CopyComplete
