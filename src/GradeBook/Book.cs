@@ -10,9 +10,17 @@ namespace GradeBook
       grades = new List<double>();
       Name = name;
     }
-    public void AddGrade(double grade)
+    public string AddGrade(double grade)
     {
-      grades.Add(grade);
+      if (grade >= 0 && grade <= 100)
+      {
+        grades.Add(grade);
+        return "Success!";
+      }
+      else
+      {
+        return "Invalid Grade";
+      }
     }
 
     public Statistics GetStatistics()
