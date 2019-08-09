@@ -2,9 +2,42 @@ using System;
 using Xunit;
 
 namespace GradeBook.Tests
-{
+{ 
   public class TypeTests
   {
+   [Fact]
+    public void ValTypesPassByRef()
+    {
+      var x = GetInt();
+      SetInt(ref x);
+
+      Assert.Equal(42, x);
+    }
+
+    private void SetInt(ref int x)
+    {
+      x = 42;
+    }
+
+    [Fact]
+    public void ValTypesPassByVal()
+    {
+      var x = GetInt();
+      SetInt(x);
+
+      Assert.Equal(3, x);
+    }
+
+    private void SetInt(int x)
+    {
+      x = 42;
+    }
+
+    private int GetInt()
+    {
+      return 3;
+    }
+
     [Fact]
     public void CSharpCanPassByRef()
     {
@@ -67,6 +100,21 @@ namespace GradeBook.Tests
 
       Assert.Same(book1, book2);
       Assert.True(Object.ReferenceEquals(book1, book2));
+    }
+
+    [Fact]
+    public void StringsBehaveLikeValueTypes()
+    {
+      string name = "Seth";
+      var upper = MakeUppercase(name);
+
+      Assert.Equal("Seth", name);
+      Assert.Equal("SETH", upper);
+    }
+
+    private string MakeUppercase(string parameter)
+    {
+      return parameter.ToUpper();
     }
 
     Book GetBook(string name)
