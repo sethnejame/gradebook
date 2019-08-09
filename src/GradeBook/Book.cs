@@ -29,12 +29,20 @@ namespace GradeBook
       result.Average = 0.0;
       result.High = double.MinValue;
       result.Low = double.MaxValue;
-      foreach (var grade in grades)
+
+      if (grades.Count > 0)
       {
-        result.Low = Math.Min(grade, result.Low);
-        result.High = Math.Max(grade, result.High);
-        result.Average += grade;
+        foreach (var grade in grades)
+        {
+          result.Message = "Grades confirmed";
+          result.Low = Math.Min(grade, result.Low);
+          result.High = Math.Max(grade, result.High);
+          result.Average += grade;
+        }
+      } else {
+          result.Message = "There are no grades in this book.";
       }
+
       result.Average /= grades.Count;
 
       return result;
