@@ -26,9 +26,9 @@ namespace GradeBook.Tests
         public void CanAddGrade()
         {
           var book = new Book("");
-          var result = book.AddGrade(105);
 
-          Assert.Same(result, "Invalid Grade");
+          Assert.Throws<ArgumentException>(() => book.AddGrade(105));
+  
         }
     }
 }

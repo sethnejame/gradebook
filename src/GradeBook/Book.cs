@@ -13,7 +13,7 @@ namespace GradeBook
 
     public void AddGrade(char letter)
     {
-      switch(letter)
+      switch (letter)
       {
         case 'A':
           AddGrade(90);
@@ -29,12 +29,11 @@ namespace GradeBook
           break;
       }
     }
-    public string AddGrade(double grade)
+    public void AddGrade(double grade)
     {
       if (grade >= 0 && grade <= 100)
       {
         grades.Add(grade);
-        return "Success!";
       }
       else
       {
@@ -58,7 +57,7 @@ namespace GradeBook
 
       result.Average /= grades.Count;
 
-      switch(result.Average)
+      switch (result.Average)
       {
         case var d when d >= 90.0:
           result.Letter = 'A';
@@ -84,7 +83,7 @@ namespace GradeBook
     public string Name
     {
       get;
-      private set;
+      set;
     }
 
     public const string CATEGORY = "Science";

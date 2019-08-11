@@ -2,10 +2,29 @@ using System;
 using Xunit;
 
 namespace GradeBook.Tests
-{ 
+{
+
+  public delegate string WriteLogDelegate(string logMessage);
   public class TypeTests
   {
-   [Fact]
+
+    [Fact]
+    public void WriteLogDelegateCanPointToMethod()
+    {
+      WriteLogDelegate log;
+
+      log = ReturnMessage;
+
+      var result = log("whatever");
+      Assert.Equal("whatever", result);
+    }
+
+    string ReturnMessage(string message)
+    {
+      return message;
+    }
+
+    [Fact]
     public void ValTypesPassByRef()
     {
       var x = GetInt();
