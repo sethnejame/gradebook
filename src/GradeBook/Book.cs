@@ -51,10 +51,10 @@ namespace GradeBook
 
     public override void AddGrade(double grade)
     {
-      using(var writer = File.AppendText($"{Name}.txt"))
+      using (var writer = File.AppendText($"{Name}.txt"))
       {
         writer.WriteLine(grade);
-        if(GradeAdded != null)
+        if (GradeAdded != null)
         {
           GradeAdded(this, new EventArgs());
         }
@@ -63,7 +63,20 @@ namespace GradeBook
 
     public override Statistics GetStatistics()
     {
-      throw new NotImplementedException();
+      var result = new Statistics();
+
+      using (var reader = File.OpenText($"{Name}.txt"))
+      {
+        var line = reader.ReadLine();
+        while (line != null)
+        {
+          var number = double.Parse(line);
+          result.Add(number);
+          line = reader.ReadLine();
+        }
+      }
+
+      return result;
     }
   }
 
@@ -114,10 +127,10 @@ namespace GradeBook
     public override Statistics GetStatistics()
     {
       var result = new Statistics();
-      
+
       foreach (var grade in grades)
       {
-        result.Add(grade);    
+        result.Add(grade);
       }
 
       return result;
