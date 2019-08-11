@@ -38,7 +38,7 @@ namespace GradeBook
       }
       else
       {
-        return "Invalid Grade";
+        throw new ArgumentException($"Invalid {nameof(grade)}");
       }
     }
 
