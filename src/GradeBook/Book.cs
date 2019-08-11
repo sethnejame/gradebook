@@ -83,20 +83,10 @@ namespace GradeBook
 
     public string Name
     {
-      get
-      {
-        return name;
-      }
-      set
-      {
-        if(!String.IsNullOrEmpty(value))
-        {
-        name = value;
-        } else {
-          throw new ArgumentException($"Book name '{nameof(value)}' is invalid. Please try agian.");
-        }
-      }
+      get;
+      private set;
     }
-    private string name;
+
+    public const string CATEGORY = "Science";
   }
 }
