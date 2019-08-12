@@ -13,6 +13,9 @@
         "packagesPath": "/home/seth/.nuget/packages/",
         "outputPath": "/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/src/GradeBook/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/home/seth/.nuget/NuGet/NuGet.Config"
         ],

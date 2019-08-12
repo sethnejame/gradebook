@@ -686,7 +686,8 @@
     ]
   },
   "packageFolders": {
-    "/home/seth/.nuget/packages/": {}
+    "/home/seth/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -697,6 +698,9 @@
       "packagesPath": "/home/seth/.nuget/packages/",
       "outputPath": "/home/seth/Dropbox/Coding/CraftAcademy/Week7/gradebook/src/GradeBook/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/home/seth/.nuget/NuGet/NuGet.Config"
       ],
